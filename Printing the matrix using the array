@@ -1,0 +1,26 @@
+#include<stdio.h>
+int main()
+{
+int i,j;
+int element[3][3];
+for(i=0;i<3;i++)
+{
+for(j=0;j<3;j++)
+{
+printf("Enter element[%d][%d]:-" ,i,j);
+scanf("%d",&element[i][j]);
+}
+}
+printf("The matirx is:-\n");
+for(i=0;i<3;i++)
+{
+for(j=0;j<3;j++)
+{
+printf("%d",disp[i][j]);
+if(j==2){
+printf("\n");
+}
+}
+}
+return 0;
+}
