@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+float a,b,product;
+cout<<"enter two numbers"<<endl;
+cin>>a>>;
+cin>>b>>;
+product=a*b;
+cout<<"product="<<product<<endl;
+return 0;
+}
