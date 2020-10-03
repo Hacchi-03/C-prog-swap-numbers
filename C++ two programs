@@ -1,0 +1,27 @@
+1.Code for the size of data types in CPP:-
+#include<iostream>
+using namespace std;
+int main()
+{
+cout<<"size of char:"<<sizeof(char)<<endl;
+cout<<"size of int:"<<sizeof(int)<<endl;
+cout<<"size of float:"<<sizeof(float)<<endl;
+cout<<"size of double:"<<sizeof(double)<<endl;
+return 0;
+}
+
+
+2.Code for the product of two numbers in cpp:-
+#include<iostream>
+using namespace std;
+int main()
+{
+float a,b,product;
+cout<<"enter two numbers"<<endl;
+cin>>a;
+cin>>b;
+product=a*b;
+cout<<"product="<<product<<endl;
+return 0;
+}
+
